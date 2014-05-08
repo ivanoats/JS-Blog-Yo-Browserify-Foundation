@@ -28,7 +28,7 @@ This is a simple blog made as teaching example.
 Grab my copy of generator-browserify (until [this pull request is closed](https://github.com/vincentmac/generator-browserify/pull/2)).
 
 ```
-npm -g install npm -g install ivanoats/generator-browserify.git
+npm -g install ivanoats/generator-browserify.git
 
 ```
 
