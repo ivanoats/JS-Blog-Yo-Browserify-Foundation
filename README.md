@@ -28,7 +28,8 @@ This is a simple blog made as teaching example.
 Grab my copy of generator-browserify (until [this pull request is closed](https://github.com/vincentmac/generator-browserify/pull/2)).
 
 ```
-npm -g install https://github.com/ivanoats/generator-browserify.git
+npm -g install npm -g install ivanoats/generator-browserify.git
+
 ```
 
 Generate the app skeleton
@@ -71,7 +72,7 @@ drwxr-xr-x   32 ivan  staff   1088 Apr 17 12:40 node_modules
 -rw-r--r--    1 ivan  staff   1277 Apr 17 12:40 package.json
 ```
 
-Now type `grunt server` to launch the app in a web browser. You should see something
+Now type `grunt serve` to launch the app in a web browser. You should see something
 like this: 
 
 ![Foundation Default Screen](doc/images/foundation_default.png)
@@ -94,7 +95,7 @@ Here's what I did:
 Go to town! This generator also includes [BackboneJS](http://backbonejs.org/) so you can even make your 
 blog a single-page app. 
 
-# TODO
+# TODO (not for students, for me)
 - Add a simple MongoDB / Express app as the blog's REST API
 - Build out the site with BackboneJS
 - Add some CasperJS ZombieJS or SuperAgent tests. 
