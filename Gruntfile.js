@@ -91,6 +91,27 @@ module.exports = function(grunt) {
         }
       }
     },
+    express: {
+      options: {
+        // Override defaults here
+      },
+      dev: {
+        options: {
+          script: 'server.js'
+        }
+      },
+      prod: {
+        options: {
+          script: 'server.js',
+          node_env: 'production' //jshint ignore:line
+        }
+      },
+      test: {
+        options: {
+          script: 'server.js'
+        }
+      }
+    },
     clean: {
       dist: {
         files: [{
@@ -425,8 +446,8 @@ module.exports = function(grunt) {
     'concurrent:dist',
     'autoprefixer',
     'concat',
-    'cssmin',
-    'uglify',
+    //'cssmin',
+    //'uglify',
     'modernizr',
     'copy:dist',
     'rev',
